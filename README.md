@@ -7,6 +7,13 @@ Nginx &amp; HHVM on Ubuntu 14.04 LTS
 $ ansible-galaxy install -r requirements.yml -p roles -f
 ```
 
+### Role List
+
+- [Nginx](https://github.com/mats116/ansible-role-nginx)
+- [HHVM](https://github.com/mats116/ansible-role-hhvm)
+- [WordPress](https://github.com/mats116/ansible-role-wordpress)
+- [MariaDB](https://github.com/mats116/ansible-role-mariadb-server) # when "mysql.host == 'localhost'"
+
 ## Launch WordPress Server on VirtualBox
 
 ### 1. Launch Server
